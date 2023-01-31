@@ -1,0 +1,8 @@
+ li:not(:last-child):after { content: ', '; }
+  span { font: italic 14px sans-serif; }
+  code { font: 1em monospace; color: orangered; }
+   <div xmlns="http://www.w3.org/1999/xhtml">
+    <h1>Flow content</h1>
+    <ul>
+     <li><code>a</code></li>
+     <li><code>abbr</code></li>
